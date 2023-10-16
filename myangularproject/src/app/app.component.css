@@ -1,0 +1,19 @@
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+
+
+.cardbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3vw;
+}
+
+.para {
+    font-size: large;
+    padding: 3vw;
+}
+
+.pricing {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}

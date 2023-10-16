@@ -1,0 +1,85 @@
+<header class="bg-dark ">
+  <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center  text-decoration-none">
+     <h2 class="fs-4 ms-2 mt-3 text-light">Pricing Example</h2>
+    </a>
+
+    <nav class="d-inline-flex mt-5 mt-md-0 ms-md-auto">
+      <a class="me-3 text-light  py-2  text-decoration-none ms-2" routerLink ="">Home</a>
+      <a class="me-3 text-light py-2  text-decoration-none ms-2" href="table">table</a>
+      <a class="me-3 text-light py-2 text-decoration-none ms-2" href="caraousel">Support</a>
+      <a class="py-2 text-light  text-decoration-none ms-2 me-2" href="#">Pricing</a>
+    </nav>
+  </div>
+</header>
+
+
+<div class="container mt-2">
+  <h1 class="display-4 text-center">{{title}}</h1>
+
+  <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati accusantium quos similique
+    pariatur quae, ipsum culpa dignissimos sapiente nulla, laudantium velit. Debitis excepturi quia libero neque dolores
+    unde veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates autem blanditiis distinctio quis
+    aperiam earum rerum numquam libero esse officiis eveniet quia nam ratione enim, ipsa animi beatae nisi doloremque.
+  </p>
+
+  <div class="d-flex justify-content-evenly flex-wrap">
+    <div class="card1">
+      <app-card price1="$0/mon" version="Free" [card]="card1"></app-card>
+    </div>
+    <div class="card2">
+      <app-card price1="$15/mon" version="Pro" [card]="card2"></app-card>
+    </div>
+    <div class="card3">
+      <app-card price1="$29/mon" version="Enterprise" [card]="card3"></app-card>
+    </div>
+  </div>
+  <br>
+
+
+
+  <app-table></app-table>
+
+
+
+  
+
+  <footer class="pt-4  pt-5 border-top bg-light container">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="mb-2" src="" alt="image" width="24" height="19">
+        <small class="d-block mb-3 text-body-secondary"> 2017–2023</small>
+      </div>
+      <div class="col-md-3">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1">Cool stuff</li>
+          <li class="mb-1"> Random feature </li>
+          <li class="mb-1"> Team feature </li>
+          <li class="mb-1"> Stuff for developers </li>
+          <li class="mb-1"> Another one </li>
+          <li class="mb-1"> Last time </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"> Resource </li>
+          <li class="mb-1"> Resource name </li>
+          <li class="mb-1"> Another resource </li>
+          <li class="mb-1"> Final resource </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"> Team </li>
+          <li class="mb-1"> Locations </li>
+          <li class="mb-1"> Privacy </li>
+          <li class="mb-1"> Terms </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</div>
